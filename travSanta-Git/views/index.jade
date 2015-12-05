@@ -1,0 +1,38 @@
+//- index.jade
+extends ./layout.jade
+
+block row-content
+  div.container
+    div.row
+      div.col-lg-12
+        h2 TravSanta(alpha)
+        div.row
+          div.col-lg-12.col-md-12.col-xs-12
+            h3 Ask me where and how
+        div.row
+          div.col-lg-10.col-md-10.col-xs-8
+            input.questionText.form-control(placeholder='Where to fly or Where to Sleep', required='true')
+          div.col-lg-2.col-md-2.col-xs-4
+            button.btn.btn-block.ask-btn Ask
+        div.row
+          div.col-lg-6.col-md-6.col-xs-12
+      div.col-lg-12(style='height:300px;')
+        div.row
+          h2 Output
+        div.row.loading(style='display:none')
+          div.col-lg-12.col-xs-12.text-center
+            img(src='images/watson.gif', width='110px')
+        div.results(style='display:none')
+          div.well
+            p TravSanta
+              | '
+              span.classification
+              | '.
+
+            p
+              strong Look at Me : 
+              span.confidence
+        div.error(style='display:none;')
+          h2 Error
+          div.well
+            div.errorMsg
