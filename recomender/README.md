@@ -1,4 +1,4 @@
-# Watson Natural Language Classifier and Weather Recommender Demo
+# Watson Natural Language Classifier and Weather Recommendation Demo
 The IBM Watson&trade; Natural Language Classifier service applies deep learning techniques to make predictions about the best predefined classes for short sentences or phrases. The classifications can trigger a corresponding action to direct a request to a Recommender Engine. 
 
 Give it a try! Click the button below to fork into IBM DevOps Services and deploy your own copy of this application on Bluemix.
@@ -6,6 +6,8 @@ Give it a try! Click the button below to fork into IBM DevOps Services and deplo
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=)
 
 ## Getting started
+
+1. You can see the live demo of this application [Weather Recomender](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/nl-classifier/get_start.shtml#create) 
 
 1. You need a Bluemix account. If you don't have one, [sign up][sign_up]. Experimental Watson Services are free to use.
 
