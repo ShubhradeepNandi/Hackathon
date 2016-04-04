@@ -7,7 +7,7 @@ Give it a try! Click the button below to fork into IBM DevOps Services and deplo
 
 ## Getting started
 
-1. You can see the live demo of this application [Weather Recomender](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/nl-classifier/get_start.shtml#create) 
+1. You can see the live demo of this application [Weather Recomender](http://recomender.mybluemix.net/) 
 
 1. You need a Bluemix account. If you don't have one, [sign up][sign_up]. Experimental Watson Services are free to use.
 
